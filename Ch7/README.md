@@ -7,3 +7,7 @@
 - **Enumerated Types Revisited**
 - **Method Design**
 
+### Class Relationship
+- Dependency: A uses B
+- Aggregation: A has-a B
+- Inheritance: A is-a B
