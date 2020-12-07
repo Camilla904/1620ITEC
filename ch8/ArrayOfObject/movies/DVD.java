@@ -26,14 +26,18 @@ public class DVD
     // Returns a string description of this DVD. 
     //----------------------------------------------------------------- 
     
-    public String toString()
-    
+    public String toString() 
     {
         NumberFormat fmt = NumberFormat.getCurrencyInstance();
-      String description;
-description = fmt.format(cost) + "\t" + year + "\t"; description += title + "\t" + director;
-if (bluRay)
-description += "\t" + "Blu-Ray";
-      return description;
+       String description;
+       description = fmt.format(cost) + "\t" + year + "\t"; 
+       description += title + "\t" + director;
+       if (bluRay)
+          description += "\t" + "Blu-Ray";
+       return description;
    }
 }
+
+
+
+
