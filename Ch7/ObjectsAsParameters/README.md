@@ -5,3 +5,4 @@ Parameters in a Java method are passed by value
 - Note the difference between **changing the internal state of an object** versus **changing which object a reference points to**
 
 ![image example](https://tva1.sinaimg.cn/large/0081Kckwly1glfnvxbvcdj30b90cy759.jpg)
+![](https://tva1.sinaimg.cn/large/0081Kckwly1glfo51x9epj30ht0ixtbo.jpg)
