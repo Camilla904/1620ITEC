@@ -34,9 +34,9 @@ public class ParameterModifier {
     System.out.println("Before changing the values:"); 
     System.out.println("f1\tf2\tf3"); //header labels 
     System.out.println(f1 + "\t" + f2 + "\t" + f3 + "\n");
-    f1 = 999;
-    f2.setValue(888);
-    f3 = new Num(777); //NUM: a class representing sigle int object
+    f1 = 999;  //这个不是object所以他passed by value
+    f2.setValue(888); //只有这个实质上change了value of the original object
+    f3 = new Num(777); //NUM: a class representing sigle int object 这是就是给f3从新assign一个新的object了
     System.out.println("After changing the values:"); 
     System.out.println("f1\tf2\tf3"); //header labels 
     System.out.println(f1 + "\t" + f2 + "\t" + f3 + "\n");
