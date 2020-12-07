@@ -7,3 +7,5 @@
 > - table abletay 
 > - item itemyay 
 > - chair airchay
+
+https://www.w3schools.com/java/ref_string_indexof.asp
