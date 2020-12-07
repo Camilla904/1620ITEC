@@ -11,3 +11,10 @@ Note that when an initializer list is used:
 
 The size of the array is determined by the number of items in the list
 – An initializer list can be used only in the **array declaration**
+
+## Arrays as Parameters
+- **An entire array can be passed as a parameter to a method**
+
+- Like any other object, the reference to the array is passed, making the formal and actual parameters aliases of each other. 
+- Therefore, changing an array element within the method changes the original
+- An individual array element can be passed to a method also, in which case the type of the formal parameter is the same as the element type
