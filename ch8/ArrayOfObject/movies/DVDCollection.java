@@ -49,7 +49,7 @@ public class DVDCollection
             for(int dvd = 0; dvd < count; dvd++)
                   report += collection[dvd].toString() + "\n";
             return report;
-   }
+      }
       
       //----------------------------------------------------------------- 
       // Increases the capacity of the collection by creating a
@@ -63,7 +63,7 @@ public class DVDCollection
             collection = temp; // set collection reference to the larger array }
       }
       
-      
+}    
       
       
       
