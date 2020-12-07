@@ -27,7 +27,8 @@ public class LetterCount
          current = line.charAt(ch);
          if (current >= 'A' && current <= 'Z') //between 65 & 90
             upper[current-'A']++; // count the # of each character else
-         if (current >= 'a' && current <= 'z') // between 97 & 122 lower[current-'a']++; // count the # of each character
+         if (current >= 'a' && current <= 'z') // between 97 & 122 
+            lower[current-'a']++; // count the # of each character
             else
                other++;
       }
