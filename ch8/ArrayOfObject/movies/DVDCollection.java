@@ -14,7 +14,8 @@ public class DVDCollection
       
       public DVDCollection()
       {
-            collection = new DVD[100]; count = 0;
+            collection = new DVD[100]; 
+            count = 0;
             totalCost = 0.0;
       }
       
@@ -28,8 +29,8 @@ public class DVDCollection
       double cost, boolean bluRay)
       {
             if (count == collection.length) // check if capacity is reached to prevent an exception being thrown;
-                  
                   increaseSize(); // if needed, double the array size and copy the existing collection into the new array
+            
             collection[count] = new DVD(title, director, year, cost, bluRay); 
             totalCost += cost;
             count++;
@@ -59,7 +60,9 @@ public class DVDCollection
       private void increaseSize()
       {
             DVD[] temp = new DVD[collection.length * 2];
-            for (int dvd = 0; dvd < collection.length; dvd++) temp[dvd] = collection[dvd];
+            for (int dvd = 0; dvd < collection.length; dvd++) 
+                  temp[dvd] = collection[dvd];
+            
             collection = temp; // set collection reference to the larger array }
       }
       
