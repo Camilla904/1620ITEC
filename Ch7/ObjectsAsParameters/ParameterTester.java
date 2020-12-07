@@ -22,4 +22,54 @@ public class ParameterTester
    } 
 }
 
+------------------------------------------------
+  
+public class ParameterModifier {
+//----------------------------------------------------------------- 
+// Modifies the parameters, printing their values before and
+// after making the changes. 
+//----------------------------------------------------------------- 
+  public void changeValues(int f1, Num f2, Num f3)
+  {
+    System.out.println("Before changing the values:"); 
+    System.out.println("f1\tf2\tf3"); //header labels 
+    System.out.println(f1 + "\t" + f2 + "\t" + f3 + "\n");
+    f1 = 999;
+    f2.setValue(888);
+    f3 = new Num(777); //NUM: a class representing sigle int object
+    System.out.println("After changing the values:"); 
+    System.out.println("f1\tf2\tf3"); //header labels 
+    System.out.println(f1 + "\t" + f2 + "\t" + f3 + "\n");
+  }
+}  
+
+---------------------------------------------------
+  
+public class Num
+{
+   private int value;
+//----------------------------------------------------------------- 
+// Sets up the new Num object, storing an initial value. 
+  //----------------------------------------------------------------- 
+  public Num(int update)
+  {
+    value = update;
+  }
+
+//----------------------------------------------------------------- 
+// Sets the stored value to the newly specified value. 
+//----------------------------------------------------------------- 
+  public void setValue(int update)
+  {
+    value = update;
+  }
+//----------------------------------------------------------------- 
+// Returns the stored integer value as a string. 
+//----------------------------------------------------------------- 
+  public String toString()
+  {
+    return value + "";
+  } 
+}
+
 
