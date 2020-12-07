@@ -5,7 +5,7 @@
 - arrays that store object references – variable length parameter lists
 - multidimensional arrays
 
-##Outline:
+## Outline:
 - Declaring and Using Arrays 
 - Arrays of Objects
 - Variable Length Parameter Lists 
