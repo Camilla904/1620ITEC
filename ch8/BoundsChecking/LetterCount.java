@@ -13,7 +13,8 @@ public class LetterCount
       int[] lower = new int[NUMCHARS]; // array of lowercase chrs 
       char current; // the current character being processed
       int other = 0; // initialized counter for other characters
-      System.out.println("Enter a sentence:"); String line = scan.nextLine();
+      System.out.println("Enter a sentence:"); 
+      String line = scan.nextLine();
       // Count the number of each letter occurence
       for (int ch = 0; ch < line.length(); ch++) // note () for String 
       {
