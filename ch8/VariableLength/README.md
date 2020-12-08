@@ -8,5 +8,7 @@
 
 - **A method can only accept one set of varying parameters which must be specified last in the formal arguments.**
 
+- Constructors can also be set up to accept a variable number of parameters
+
 
 ![](https://tva1.sinaimg.cn/large/0081Kckwly1glga8uohpfj30o00a2adm.jpg)
