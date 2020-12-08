@@ -1,0 +1,5 @@
+# Variable Length Parameter Lists
+
+- Using **special syntax in the formal parameter list,** we can define a method to accept any number of parameters of the same type
+
+![](https://tva1.sinaimg.cn/large/0081Kckwly1glga8uohpfj30o00a2adm.jpg)
