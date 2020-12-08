@@ -4,7 +4,7 @@
 
 - The type of the parameter can be any **primitive** or **object** type
 
-- A method that accepts a variable number of parameters can also accept other parameters
+- A method that accepts a variable number of parameters can also accept **other parameters
 
 
 
