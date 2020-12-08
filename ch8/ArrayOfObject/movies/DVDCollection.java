@@ -45,7 +45,8 @@ public class DVDCollection
             String report = "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n"; 
             report += "My DVD Collection\n\n";
             report += "Number of DVDs: " + count + "\n";
-            report += "Total cost: " + fmt.format(totalCost) + "\n"; report += "Average cost: " + fmt.format(totalCost/count);
+            report += "Total cost: " + fmt.format(totalCost) + "\n"; 
+            report += "Average cost: " + fmt.format(totalCost/count);
             report += "\n\nDVD List:\n\n";
             for(int dvd = 0; dvd < count; dvd++)
                   report += collection[dvd].toString() + "\n";
